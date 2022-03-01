@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="bannerLeft"><h1>DojoWeather</h1></div>
+      <div class="bannerRight">
+        <h2 onclick="message()" class="city">Burbank</h2>
+        <h2 class="city">Chicago</h2>
+        <h2 class="city">Dallas</h2>
+      </div>
+    </div>
+    <div class="sanJose">
+      <div class="sanLeft"><h1>San Jose</h1></div>
+      <div class="sanRight">
+        <h2>show temperture in</h2>
+        <select onchange="myFunction()" name="Temp" id="Temp">
+          <option value="°F">°c</option>
+          <option value="°C">°f</option>
+        </select>
+      </div>
+    </div>
+    <div class="middle">
+      <div class="today">
+        <div><h2>Today</h2></div>
+        <div><img src="./img/some_rain.png" alt=" rain clouds" /></div>
+        <div><h3>some rain</h3></div>
+        <div class="degree">
+          <h3 id="deg3" class="red">24°</h3>
+          <h3 id="deg4" class="blue">18°</h3>
+        </div>
+      </div>
+      <div class="tomorrow">
+        <div><h2>Today</h2></div>
+        <div><img src="./img/some_sun.png" alt=" rain clouds" /></div>
+        <div><h3>some sun</h3></div>
+        <div class="degree">
+          <h3 id="deg" class="red">27°</h3>
+          <h3 id="deg2" class="blue">19°</h3>
+        </div>
+      </div>
+      <div class="friday">
+        <div><h2>Today</h2></div>
+        <div><img src="./img/some_clouds.png" alt=" rain clouds" /></div>
+        <div><h3>some clouds</h3></div>
+        <div class="degree">
+          <h3 id="deg5" class="red">21°</h3>
+          <h3 id="deg6" class="blue">16°</h3>
+        </div>
+      </div>
+      <div class="saturday">
+        <div><h2>Today</h2></div>
+        <div><img src="./img/some_sun.png" alt=" rain clouds" /></div>
+        <div><h3>some sun</h3></div>
+        <div class="degree">
+          <h3 id="deg7" class="red">26°</h3>
+          <h3 id="deg8" class="blue">21°</h3>
+        </div>
+      </div>
+    </div>
+    <div id="cook" class="cookie">
+      <div><img src="./img/cookie.png" alt="a cookie" /></div>
+      <div>
+        <h1 class="smallish">Stop! Cookie time</h1>
+        <h3 class="small">
+          We use cookies (sadly not the edible ones) to personalize content and
+          ads, to provide social media features and to analyse our traffic.
+          <span class="blue">read more...</span>
+        </h3>
+      </div>
+      <div><button onclick="turnOff()">I Accept</button></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

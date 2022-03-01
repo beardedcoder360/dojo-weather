@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+}
+body {
+  height: 940px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner {
+  background-color: rgb(131, 209, 245);
+  width: 1343px;
+  height: 71px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: aliceblue;
+}
+.bannerRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 407px;
+  font-size: smaller;
+}
+.bannerLeft {
+  margin-left: 415px;
+  display: flex;
+  align-items: center;
+}
+.city {
+  margin-right: 20px;
+}
+.sanJose {
+  width: 516px;
+  height: 71px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+.sanRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sanLeft {
+  display: flex;
+  align-items: center;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 239px;
+  width: 516px;
+}
+.today {
+  background-color: rgb(201, 198, 197);
+  height: 218px;
+  width: 114px;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.degree {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 114px;
+}
+img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.tomorrow {
+  background-color: rgb(201, 198, 197);
+  height: 218px;
+  width: 114px;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.friday {
+  background-color: rgb(201, 198, 197);
+  height: 218px;
+  width: 114px;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.saturday {
+  background-color: rgb(201, 198, 197);
+  height: 218px;
+  width: 114px;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cookie {
+  background-color: rgb(201, 198, 197);
+  height: 100px;
+  width: 516px;
+  display: flex;
+  margin-top: 5px;
+  border: 2px solid black;
+  flex-direction: row;
+  align-items: center;
+}
+.blue {
+  color: blue;
+}
+.red {
+  color: red;
+}
+span {
+  text-decoration: underline;
+}
+.small {
+  font-size: smaller;
+}
+.smallish {
+  font-size: large;
+  font-weight: bolder;
+}
+button {
+  margin: 10px;
+  height: 27px;
+  width: 77px;
+  color: black;
+  background-color: rgb(164, 200, 248);
+  box-shadow: 2px 2px   ;
+}
